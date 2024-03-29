@@ -7,10 +7,10 @@ const googleSheet = google.sheets({ version: 'v4', auth: authorize });
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
-    return res.status(405).end(); // Method Not Allowed
+    return res.status(405).end(); 
   }
 
-  const { name, contact, timestamp } = req.body;  // Here we get the timestamp from the client
+  const { name, contact, timestamp } = req.body;
 
   try {
     const response = await googleSheet.spreadsheets.values.get({
@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     const rows = response.data.values;
 
     if (!rows) {
-      console.error('Failed to load data from Google Spreadsheet');
+      console.error('구글 스프레드 시트 접속에 실패했어요.');
       return res.status(500).json({ message: '데이터를 불러오는 데 실패했습니다.' });
     }
 

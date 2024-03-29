@@ -166,12 +166,7 @@ const RegisterForm = () => {
         toast.error('렛즈 베타 서비스는 현재 iOS에서만 사용 가능합니다. \n추후 안드로이드 OS도 런칭 예정입니다.', { duration: 3000 });
     }
 }}>프리 런칭 이벤트 참여하기</button>
-
-
-
-
-
-        </div>
+</div>
 
 <button className="letzButton" type='submit'>
         베타 서비스 알림 신청하기
