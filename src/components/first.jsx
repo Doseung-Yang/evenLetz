@@ -129,7 +129,7 @@ const First = () => {
                             <p style={{color: 'rgba(0, 255, 255, 1)', fontSize: '2rem', fontWeight: 'bold'}}>
                                 {`${timeLeft.days}일 : ${timeLeft.hours} : ${timeLeft.minutes} : ${timeLeft.seconds}`}
                             </p>
-                            <p style={{color:'rgba(73, 80, 87, 1)', fontSize: '1.2rem',fontWeight: '600'}}>2024.08.28 MON</p>
+                            <p style={{color:'rgba(73, 80, 87, 1)', fontSize: '1.2rem',fontWeight: '600'}}>웹 개발자 도전까지</p>
                         </div>
                     </div>
                 </div>
