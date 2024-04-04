@@ -17,4 +17,3 @@ Letz service event page.
 - contactInput 숫자 외 입력 금지
 // 클라 Register
 - 웹, 모바일 반응형 UI 개발
-- 
